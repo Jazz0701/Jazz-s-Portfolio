@@ -1,4 +1,4 @@
-/* Base layout */
+/* layout */
 :root{
   --accent: #0b3d91;
   --muted: #6c757d;
@@ -22,7 +22,6 @@
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.6);
 }
-
 
 
 #about {
@@ -89,8 +88,9 @@
 
 /*  Technical Skill list */
 #skills {
-
-  margin-top: 2rem; 
+font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.9;
 
 }
 
