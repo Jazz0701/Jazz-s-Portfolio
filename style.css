@@ -29,10 +29,10 @@
   margin-bottom: 3rem; 
   margin-left: 3rem;
   margin-right: 3rem;
+  text-indent: 40px;
 }
 
 .about-text {
-  text-indent: 40px;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.9;
