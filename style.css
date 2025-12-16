@@ -10,6 +10,8 @@
 .header-section {
   background: linear-gradient(180deg, var(--bg-dark) 0%, #111111 100%);
   color: var(--light);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .profile-pic {
@@ -17,13 +19,32 @@
   height: 140px;
   object-fit: cover;
   border: 4px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.6);
 }
 
+
+
+#about {
+  margin-top: 1.25rem; 
+}
+
+.about-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.9;
+}
+
+
+.section-block {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .center-heading {
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.2px;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   color: #fff;
 }
 
@@ -32,7 +53,7 @@
 }
 
 .location {
-  color: rgba(255,255,255,0.6);
+  color: white;
 }
 
 /* Social icons */
@@ -66,16 +87,42 @@
   color: #333;
 }
 
-/* Skill list */
-.skill-list li {
-  padding: 0.45rem 0;
-  border-bottom: 1px dashed rgba(0,0,0,0.06);
+/*  Technical Skill list */
+#skills {
+
+  margin-top: 2rem; 
+
+}
+
+ 
+dl {
+  margin: 0;
+  padding: 0;
+}
+ 
+dt {
+  font-weight: 600;     
+  margin-top: 1rem;     
 }
 
 /* Project cards */
 .project-card {
   border: 1px solid rgba(0,0,0,0.06);
   transition: transform .15s ease, box-shadow .15s ease;
+}
+
+#projects {
+  margin-top: 2rem; 
+}
+
+.project-img {
+  height: 150px;
+  object-fit: contain;
+  display: block;
+}
+ 
+.card-body {
+  padding-top: 0.5rem;
 }
 
 .project-card:hover {
