@@ -1,12 +1,14 @@
-/* layout */
-:root{
+body {
   --accent: #0b3d91;
   --muted: #6c757d;
   --bg-dark: #0b0b0b;
   --light: #f8f9fa;
+
+  background-color: var(--bg-dark);
+  color: var(--light);
 }
 
-/* Header */
+
 .header-section {
   background: linear-gradient(180deg, var(--bg-dark) 0%, #111111 100%);
   color: var(--light);
