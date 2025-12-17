@@ -151,7 +151,11 @@ dt {
 
 
 .footer {
-  color: black;
+  color: white;            
+  background-color: black; 
+  text-align: center;    
+  margin: 0 auto;          
+  padding: 20px;           
 }
 
 
