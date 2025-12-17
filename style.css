@@ -148,10 +148,16 @@ dt {
 }
 
 .footer {
-  color: white;            
-  background-color: black; 
-  text-align: center;               
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
+
 
 
 
